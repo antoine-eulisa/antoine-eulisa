@@ -1,0 +1,9 @@
+syntax = "proto3";
+package tutorial;
+option java_package = "com.tutorialspoint.greeting";
+
+message Greet {
+   string greeting = 1;
+   string username = 2;
+   int32 age = 3;
+}  
