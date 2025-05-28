@@ -25,6 +25,12 @@ export PATH="$PATH:/workspaces/antoine-eulisa/protoc/bin"
 cat test-data.txt | protoc --encode=tutorial.Greet ./test.proto > test-data.protob
 ````
 
+## getting raw data from EVS
+
+it starts by getting the hexa values from EVS UI like so ![EVS screen](evs_get_raw.png)
+then a tool must be used to convert the hexa back to its original binary value
+
+
 ## decoding by protoscope
 ````
 /go/bin/protoscope test-data.protob 
